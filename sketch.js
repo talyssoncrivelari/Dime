@@ -7,7 +7,7 @@ function preload() {
 function setup() {
 
 createCanvas(windowWidth, windowHeight);
-rect1 = createSprite(windowWidth/2 + 256, windowHeight/2);
+rect1 = createSprite(windowWidth/2 + 128, windowHeight/2);
 rect1.shapeColor = "white";
 rect1.addImage(rect1IMG);
 rect1.scale =  windowHeight/2048;
