@@ -9,14 +9,14 @@ function preload() {
 function setup() {
 
 createCanvas(windowWidth, windowHeight);
-rect1 = createSprite(windowWidth - 100, windowHeight/2);
+rect1 = createSprite(windowWidth - 75, windowHeight/2);
 rect1.addImage(rect1IMG);
-rect1.scale = windowHeight - 1024.5;
-rect1.rotation = 270;
-play = createSprite(windowWidth - 625, windowHeight/2);
+rect1.scale = windowHeight - 666.65;
+rect1.rotation = 90;
+play = createSprite(windowWidth - 300, windowHeight/2);
 play.addImage(playIMG);
-play.scale = windowHeight - 1024.12;
-play.rotation = 270;
+play.scale = windowHeight - 666.92;
+play.rotation = 90;
 }
 
 function draw() {
