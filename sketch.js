@@ -7,11 +7,11 @@ function preload() {
 function setup() {
 
 createCanvas(windowWidth, windowHeight);
-rect1 = createSprite(windowWidth/2 + 128, windowHeight/2);
+rect1 = createSprite(windowWidth - 100, windowHeight/2);
 rect1.shapeColor = "white";
 rect1.addImage(rect1IMG);
-rect1.scale =  windowHeight/2048;
-rect1.rotation = 90;
+rect1.scale = windowHeight - 1024.5;
+rect1.rotation = 270;
 }
 
 function draw() {
