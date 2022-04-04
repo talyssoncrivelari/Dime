@@ -9,9 +9,9 @@ function preload() {
 function setup() {
 
 createCanvas(windowWidth, windowHeight);
-rect1 = createSprite(windowWidth / 2 + 140, windowHeight/2);
+rect1 = createSprite(windowWidth - 110, windowHeight/2);
 rect1.addImage(rect1IMG);
-rect1.scale = 0.3;
+rect1.scale = windowHeight/2048;
 rect1.rotation = 90;
 //play = createSprite(windowWidth - 300, windowHeight/2);
 //play.addImage(playIMG);
@@ -23,5 +23,6 @@ function draw() {
   
   background(0);
 
+  console.log(rect1.scale);
   drawSprites();
 }
