@@ -9,7 +9,7 @@ function preload() {
 function setup() {
 
 createCanvas(windowWidth, windowHeight);
-rect1 = createSprite(windowWidth - 110, windowHeight/2);
+rect1 = createSprite(windowWidth - 90, windowHeight/2);
 rect1.addImage(rect1IMG);
 rect1.scale = windowHeight/2048;
 rect1.rotation = 90;
